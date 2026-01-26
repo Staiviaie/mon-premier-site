@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li>
+                    <a href="/index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="/page-detail-1.html">Details defances</a>
+                </li>
+                <li>
+                    <a href="/page-detail-2.html">Chenilles a camouflage</a>
+                </li>
+                <li>
+                    <a href="/page-detail-3.html">Chenilles a couleurs vives</a>
+                </li>
+            </ul>
+        </header>
+        <h1>Contactez-nous</h1>
+        <br><h2>Commander le petit livre des chenilles ici</h2>
+        <form>
+            <br><strong>Informations personelles :</strong><br>
+            <br><label for="lastname-id">Nom *</label>
+            <input type="text" id="lastname-id" name="lastname" required maxlength="30" aria-required="true">
+
+            <br><br><label for="firstname-id">Prénom *</label>
+            <input type="text" id="firstname-id" name="firstname" required maxlength="30">
+
+            <br></br><label for="adresses-id">Adresses *</label>
+            <input type="text" id="adresses-id" name="Adresses" required maxlength="50">
+
+            <br><br><label for="localite-id">Localité *</label>
+            <input type="text" id="localite-id" name="Localite" required maxlength="60">
+            
+            <br><br><label for="n_postal-id">N° Postal *</label>
+            <input type="text" id="n_postal-id" name="n_postal" required maxlength="10">
+            
+            <br><br><br><label><strong>Produits :</strong></label>
+            <br><br><input type="checkbox" name="Unique[]" value="Unique"> Prochain numero
+            <br><input type="checkbox" name="Abo-mois[]" value="Abo-mois"> Abonnement un mois
+            <br><input type="checkbox" name="Abo-365[]" value="Abo-365"> Abonnement une année
+            
+            <br><br><strong>Quantitée :</strong> 
+
+            <br><br><input type="radio" name="Quantitée" value="Quantitée" checked> Quantitée
+            <select name="Quantitée">
+                <option value="1">1x</option>
+                <option value="2">2x</option>
+                <option value="5">5x</option>
+                <option value="10">10x</option>
+            </select>
+
+            <br><input type="radio" name="Quantitée" value="Quantitée-personalisée"> Quantitée personalisée
+            <input type="number" max="20" min="1" name="Quantitée-personalisée" value="Quantitée">
+
+            <br><br><strong>Mode de paiement :</strong>
+            <br><br><input type="radio" name="mode-paiment" value="par carte" checked> Carte Bancaire
+            <br><br><input type="radio" name="mode-paiment" value="par Twint"> Twint
+
+            <br><br>rediger ici votre message
+            <br><textarea rows="5" id="message-id" name="mesage-client"></textarea>
+
+            <br><br><br><input required type="checkbox" name="conditions-generales" value="conditions-acceptée"> * Accepter les conditions générales pour finaliser l'achat.
+
+            <br><br><br><input type="submit">
+        </form>
+    </body>
+</html>
