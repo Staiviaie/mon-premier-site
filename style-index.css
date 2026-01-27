@@ -1,0 +1,47 @@
+p {
+    color: aqua;
+    
+}
+.megaa-chenilleeee {
+    color: blue;
+    font-size: 16px;
+}
+.decaler {
+    position: relative;
+    left: 14px;
+    background-color: yellow;
+}
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+}
+.conteneur {
+    position: relative;
+    height: 300px;
+    width: auto;
+    background-color: #ececec;
+    border: 1px solid black;
+}
+.une {
+    background-color: green;
+    left: 20px;
+    top: 20px;
+}
+.deux {
+    background-color: red;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.trois {
+    background-color: yellow;
+    right: 20px;
+    bottom: 20px;
+}
