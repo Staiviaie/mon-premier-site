@@ -1,0 +1,37 @@
+.flex-container {
+    background-color: rgb(214, 214, 214);
+    border: 1px solid black;
+
+    margin: 20px;
+    padding: 20px;
+    height: 550px;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-item {
+    border-radius: 1px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.une {
+    background-color: aquamarine;
+
+    align-self: self-start;
+}
+.deux {
+    background-color: rgb(136, 28, 245, 0.5);
+}
+.trois {
+    background-color: aqua;
+
+    align-self: flex-end;
+}
