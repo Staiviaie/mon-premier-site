@@ -20,3 +20,63 @@
     top: 0;
     background-color: #CBFCB9;
 }
+.conteneurstart {
+    display: flex;
+    position: relative;
+    background-color: yellow;
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.index {
+    display: flex;
+    background-color: gray;
+    height: 30px;
+    width: 180px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: blue solid 3px;
+}
+.page1 {
+    display: flex;
+    background-color: gray;
+    height: 30px;
+    width: 180px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: blue solid 3px;
+}
+.page2 {
+    display: flex;
+    background-color: gray;
+    height: 30px;
+    width: 180px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: blue solid 3px;
+}
+.page3 {
+    display: flex;
+    background-color: gray;
+    height: 30px;
+    width: 180px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: blue solid 3px;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0px;
+}
