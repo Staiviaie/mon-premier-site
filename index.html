@@ -11,6 +11,7 @@
             body {
                 background-color: honeydew;
                 margin: 0px;
+                max-width: 2200px;
             }
             h1 {
                 color: cadetblue;
@@ -20,16 +21,16 @@
     </head>
     <body>
         <div class="conteneurstart">
-            <a class="index" href="/index.html">Accueil</a>
-            <a class="page1" href="/page-detail-1.html">Details defances</a>
-            <a class="page2" href="/page-detail-2.html">Details construction page</a>
-            <a class="page3" href="/page-detail-3.html">flexbox</a>
+            <a class="button a index" href="/index.html">Accueil</a>
+            <a class="button a page1" href="/page-detail-1.html">Details defances</a>
+            <a class="button a page2" href="/page-detail-2.html">Details construction page</a>
+            <a class="button a page3" href="/page-detail-3.html">flexbox</a>
         </div>
         <h1>Les chenilles</h1>
 
         <div>Ceci <a style="text-decoration: line-through;">ne parle pas</a> des chenilles</div>
         <a class="decaler">parle</a>
-        <br><img src="/media/images/jolie-illustration-chenille.avif" width="100%" title="Une chenille tres mignonne" alt="Une chenilles tres mignonne">
+        <br><img src="/media/images/jolie-illustration-chenille.avif" width="95%" title="Une chenille tres mignonne" alt="Une chenilles tres mignonne">
 
         <h2>Comment ce defendent les chenilles</h2>
             <a>Les chenilles sont de <em> petits insectes </em>  avec <strong> beaucoup </strong> de pattes mais ce deplace en contorsionant sont corp pour ce propulser en avant</a>
@@ -52,20 +53,30 @@
         </ul>
         <h2>Types de chenilles</h2>
         <p>Voici different types de defances de chenilles</p>
-        <ol>
-            <li id="urticantes">
-                <p class="megaa-chenilleeee">Les chenilles urticantes</p> 
-                <br><img src="/media/images/chenille urticante.jfif" height="300" title="une chenille urticante" alt="une chenille avec plein de poils"> 
-            </li>
-            <li id="camouflage">
-                <p>Les chenilles qui ont un camouflage</p>
-                <br><img src="/media/images/chenille-que-tu-vois-pas.jfif" height="300" title="une chenilles camouflée" alt="une chenille camouflée sur une branche">
-            </li>
-            <li id="couleur-vives">
-                <p>Les chenilles qui ont des couleurs vives</p>
-                <br><img class="couleur-vives" src="/media/images/chenille couleur vives.jpg" height="400" title="chenille a couleur vives" alt="Une chenille qui as des couleurs vives">
-            </li>
-        </ol>
+        <div class="conteneurimages">
+            <a id="urticantes"></a>
+            <div>
+                <a class="urticante-box">
+                    <div class="urticante-text">Les chenilles urticantes</div>
+                    <img class="urticante-image" src="/media/images/chenille urticante.jfif" title="une chenille urticante" alt="une chenille avec plein de poils">
+                </a> 
+            </div>
+            <a id="camouflage"></a>
+            <div>
+                <a class="couleur-vives-box">
+                    <div class="couleur-vives-text">Les chenilles qui ont des couleurs vives</div>
+                    <img class="couleur-vives-image" src="/media/images/chenille couleur vives.jpg" title="chenille a couleur vives" alt="Une chenille qui as des couleurs vives">
+                </a>
+            </div>
+            <div>
+                <a class="camouflage-box">
+                    <div class="camouflage-text">Les chenilles qui ont un camouflage</div>
+                    <img class="camouflage-image" src="/media/images/chenille-que-tu-vois-pas.jfif" title="une chenilles camouflée" alt="une chenille camouflée sur une branche">
+                </a>
+            </div>
+            <a id="couleur-vives"></a>
+
+        </div>
         <div class="conteneurend">
             <a class="contact" href="/contact.html">Contact</a>
             <a class="mentions" href="/mentions-legales.html">Mentions Légales</a>

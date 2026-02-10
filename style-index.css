@@ -27,7 +27,7 @@ p {
 .conteneur {
     position: relative;
     height: 300px;
-    width: auto;
+    width: 80%;
     background-color: #ececec;
     border: 1px solid black;
 }
@@ -47,29 +47,24 @@ p {
     right: 20px;
     bottom: 20px;
 }
-button:hover {
-    background-color: rgba(227, 0, 235, 0,78);
-    color: white;
+.button:hover {
+    background-color: blue;
 }
 button:active {
     background-color: darkblue;
     color: white;
 }
 a:visited {
-    color: rgb(0, 255, 0);
-}
-input:focus {
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 4px solid rgb(255, 0, 0);
-    outline: none;
+    color: rgb(255, 255, 255);
 }
 .conteneurend {
     display: flex;
     position: relative;
     background-color: rgb(98, 116, 98);
     height: 46px;
+    width: 100%;
     padding-top: 10px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
 }
 .mentions{
@@ -101,8 +96,9 @@ input:focus {
 .conteneurstart {
     display: flex;
     position: relative;
-    background-color: yellow;
+    background-color: rgb(240, 240, 168);
     height: 50px;
+    width: 100%;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -151,7 +147,7 @@ input:focus {
     border-radius: 10px;
     border: blue solid 3px;
 }
-a {
+.a {
     text-decoration: none;
 }
 body {
@@ -160,8 +156,62 @@ body {
     margin: 0px;
     align-items: center;
 }
-.couleur-vives {
+.conteneurimages {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(250, 255, 240);
+    height: 300px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.urticante-image {
+    height: 200px;
+    width: 70%;
+    margin: 0px;
+}
+.camouflage-image {
+    height: 200px;
+    width: 70%;
+}
+.couleur-vives-image {
+    height: 250px;
+    width: 200px;
+
+}
+.urticante-box {
+    display: flex;
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    background-color: rgb(216, 226, 216);
+    height: 200px;
+    width: 90%;
+    padding-left: 10px;
+    align-items: center;
+    border: black solid 1px;
+}
+.camouflage-box {
+    display: flex;
+    position: relative;
+    background-color: rgb(216, 226, 216);
+    height: 200px;
+    width: 90%;
+    padding-left: 10px;
+    align-items: center;
+    border: black solid 1px;
+}
+.couleur-vives-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(216, 226, 216);
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    border: black solid 1px;
 }
